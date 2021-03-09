@@ -1,4 +1,74 @@
-﻿body
-{
-  background-color: red;
+﻿@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=VT323&display=swap');
+
+body {
+  background-color: #24292e;
+}
+
+.navalert-container {
+  background-color: #24292e;
+}
+
+.navbar-brand {
+  color: antiquewhite;
+}
+
+.link-color {
+  color: antiquewhite;
+}
+
+.hero-container {
+  height: 50vh;
+  background: url("/images/hero-image.jpg") no-repeat center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.text-color {
+  color: antiquewhite;
+}
+
+.text-font {
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+}
+
+.about {
+  background-color: #24292e;
+  color: antiquewhite;
+}
+
+.parallax {
+  background-image: url("/images/hero-image.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
