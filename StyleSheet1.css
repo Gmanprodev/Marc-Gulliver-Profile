@@ -79,3 +79,15 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.navbar .navbar-toggler {
+  border: 0;
+  font-size: 200%;
+  color: antiquewhite;
+}
+
+@media (max-width: 767px) {
+  .me-responsive {
+    width: 50%;
+  }
+}
