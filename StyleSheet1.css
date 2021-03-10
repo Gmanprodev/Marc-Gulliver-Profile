@@ -62,7 +62,7 @@ body {
 }
 
 .parallax {
-  background-image: url("images/hero-image.jpg"); 
+  background-image: url("images/hero-image.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -71,4 +71,11 @@ body {
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
+  max-width: 100%;
+  height: auto;
+}
+
+.me-fluid {
+  max-width: 100%;
+  height: auto;
 }
